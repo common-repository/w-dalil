@@ -1,0 +1,150 @@
+@font-face {
+  font-family: 'fonticon';
+  src: url('w-dalil-icone.ttf');
+  src: url('w-dalil-icone.eot') format('embedded-opentype'),
+       url('w-dalil-icone.woff') format('woff'),
+       url('w-dalil-icone.ttf') format('truetype'),
+       url('w-dalil-icone.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fonticon";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-print:before { content: '\e800'; } /* '' */
+.icon-print-1:before { content: '\e801'; } /* '' */
+.icon-facebook:before { content: '\e802'; } /* '' */
+.icon-facebook-squared:before { content: '\e803'; } /* '' */
+.icon-facebook-official:before { content: '\e804'; } /* '' */
+.icon-twitter:before { content: '\e805'; } /* '' */
+.icon-twitter-circled:before { content: '\e806'; } /* '' */
+.icon-twitter-rect:before { content: '\e807'; } /* '' */
+.icon-instagram:before { content: '\e808'; } /* '' */
+.icon-instagram-1:before { content: '\e809'; } /* '' */
+.icon-instagram-2:before { content: '\e80a'; } /* '' */
+.icon-instagram-3:before { content: '\e80b'; } /* '' */
+.icon-instagram-filled:before { content: '\e80c'; } /* '' */
+.icon-pinterest:before { content: '\e80d'; } /* '' */
+.icon-pinterest-squared:before { content: '\e80e'; } /* '' */
+.icon-pinterest-circled:before { content: '\e80f'; } /* '' */
+.icon-filter:before { content: '\e810'; } /* '' */
+.icon-filter-1:before { content: '\e811'; } /* '' */
+.icon-mail:before { content: '\e812'; } /* '' */
+.icon-mail-alt:before { content: '\e813'; } /* '' */
+.icon-mail-squared:before { content: '\e814'; } /* '' */
+.icon-mail-2:before { content: '\e815'; } /* '' */
+.icon-phone:before { content: '\e816'; } /* '' */
+.icon-phone-squared:before { content: '\e817'; } /* '' */
+.icon-phone-1:before { content: '\e818'; } /* '' */
+.icon-globe:before { content: '\e819'; } /* '' */
+.icon-globe-1:before { content: '\e81a'; } /* '' */
+.icon-location:before { content: '\e81b'; } /* '' */
+.icon-location-outline:before { content: '\e81c'; } /* '' */
+.icon-location-1:before { content: '\e81d'; } /* '' */
+.icon-cancel:before { content: '\e81e'; } /* '' */
+.icon-search:before { content: '\e81f'; } /* '' */
+.icon-search-1:before { content: '\e820'; } /* '' */
+.icon-search-2:before { content: '\e821'; } /* '' */
+.icon-search-3:before { content: '\e822'; } /* '' */
+.icon-rss-squared:before { content: '\e823'; } /* '' */
+.icon-gplus-squared:before { content: '\e824'; } /* '' */
+.icon-googleplus-rect:before { content: '\e825'; } /* '' */
+.icon-rss-alt:before { content: '\e826'; } /* '' */
+
+#dalilsearchform {
+    margin: 0 0 20px 0;
+}
+.dalil_item .dalil-title{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.dalil_item .dalil-cat{
+    margin: 0 0 20px;
+    font-size: 12px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    display: inline-block;
+}
+.dalil_item .dalil-cat a{
+    padding: 4px 8px;
+}
+.dalil_item .dalil-address *,
+.dalil_item .dalil-phone *,
+.dalil_item .dalil-website *,
+.dalil_item .dalil-email *
+{
+    vertical-align: top;
+    display: inline-block;
+}
+.dalil_item .dalil-address p,
+.dalil_item .dalil-phone p,
+.dalil_item .dalil-website p,
+.dalil_item .dalil-email p
+{
+    display: inline;
+}
+.dalil_item .w_dalil_glyphs{
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    width: 40px;
+}
+.dalil_item .icon-print{
+    cursor: pointer;
+}
+.dalil_item .w_dalil_edit_item{
+    display: block;
+    text-align: center;
+    background: #ddd;
+    margin: 20px 0;
+}
+.dalil_container .pagination_center{
+    text-align: center;
+}
+.dalil_container .pagination_center .navigation a,.dalil_container  .pagination_center .navigation span.page-numbers {
+    border: 1px solid #eee;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    line-height: normal;
+    display: inline-block;
+    text-align: center;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.w_dalil_pop_mail input[type="submit"],.w_dalil_pop_mail input[type="button"] {
+    width: auto;
+    background-color: #d71635 !important;
+    color: #fff;
+    font-weight: 800;
+    background-image: none;
+    text-shadow: 0;
+    font-size: 13px !important;
+}
+.dalil_filter{
+    font-size: 18px;
+    text-align: center;
+}
+
+dalil-title
+dalil-cat
+dalil-address
+dalil-phone
+dalil-website
+w_dalil_edit_item
+w_dalil_glyphs
+icon-print
+icon-location
+icon-phone
+icon-globe
